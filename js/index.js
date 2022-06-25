@@ -319,7 +319,7 @@ $(document).ready(function(){
     hour = minute * 60,
     day = hour * 24;
   
-    var sale = "Dec 31, 2021 00:00:00",
+    var sale = "Dec 31, 2022 00:00:00",
     countDown = new Date(sale).getTime(),
     x = setInterval(function() {    
     var now = new Date().getTime(),
